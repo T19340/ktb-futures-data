@@ -1,0 +1,7 @@
+# 텍스트 파일은 자동 감지 + 저장소 내부 줄바꿈 정규화
+* text=auto
+
+# 원시 데이터 — 바이트 그대로 보존(EOL·인코딩 변환 금지)
+#   CSV: cp949 인코딩 / xlsx: zip 아카이브
+*.csv  binary
+*.xlsx binary
